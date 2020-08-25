@@ -1,0 +1,103 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 15rem;
+  margin-bottom: 2.5rem;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+  padding: 4rem 2rem;
+}
+
+.title {
+  margin-bottom: 4rem;
+}
+
+.title span {
+  display: block;
+}
+
+.title-main {
+  font-size: 5.4rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.title-sub {
+  font-size: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0.62rem;
+  color: #7e7e7e;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  font-family: inherit;
+  flex: 1;
+  border-radius: 5.8rem;
+  border: 1px solid #a0a0a0;
+  margin-right: 2rem;
+  padding: 1.2rem 1.4rem;
+  outline: none;
+}
+
+.btn {
+  font-family: inherit;
+  border-radius: 5.8rem;
+  border: 1px solid black;
+  padding: 1rem 1.8rem;
+  background: black;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.icons {
+  margin: 5rem 0;
+}
+
+.icons i {
+  font-size: 24px;
+  margin: 1rem 1.4rem;
+  color: black;
+}
+
+@media (max-width: 425px) {
+  .form-sub {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-sub input,
+  .form-sub button {
+    margin: 1rem !important;
+  }
+  .title-sub {
+    letter-spacing: 0;
+    font-size: 18px;
+    margin: 2rem 1rem;
+  }
+}
